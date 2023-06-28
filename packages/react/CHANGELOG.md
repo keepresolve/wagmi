@@ -1,5 +1,79 @@
 # wagmi
 
+## 1.3.2
+
+### Patch Changes
+
+- [`e86d0940`](https://github.com/wagmi-dev/wagmi/commit/e86d09409bb20b64d24e1263abcf0291314f03c7) Thanks [@jxom](https://github.com/jxom)! - Updated references
+
+- Updated dependencies [[`e86d0940`](https://github.com/wagmi-dev/wagmi/commit/e86d09409bb20b64d24e1263abcf0291314f03c7)]:
+  - @wagmi/core@1.3.2
+
+## 1.3.1
+
+### Patch Changes
+
+- [`964042fa`](https://github.com/wagmi-dev/wagmi/commit/964042fa94d682977923c595820c58283fb9244a) Thanks [@jxom](https://github.com/jxom)! - Updated references.
+
+- Updated dependencies [[`964042fa`](https://github.com/wagmi-dev/wagmi/commit/964042fa94d682977923c595820c58283fb9244a)]:
+  - @wagmi/core@1.3.1
+
+## 1.3.0
+
+### Minor Changes
+
+- [#2619](https://github.com/wagmi-dev/wagmi/pull/2619) [`0d79748c`](https://github.com/wagmi-dev/wagmi/commit/0d79748cec2b6ac2410ad2c9816cc662f2b70962) Thanks [@jxom](https://github.com/jxom)! - Updated references:
+  - Updated `@safe-global/safe-apps-sdk` to `^8.0.0` (the one with `viem` support)
+
+### Patch Changes
+
+- Updated dependencies [[`0d79748c`](https://github.com/wagmi-dev/wagmi/commit/0d79748cec2b6ac2410ad2c9816cc662f2b70962)]:
+  - @wagmi/core@1.3.0
+
+## 1.2.2
+
+### Patch Changes
+
+- [#2611](https://github.com/wagmi-dev/wagmi/pull/2611) [`6d1ed7a1`](https://github.com/wagmi-dev/wagmi/commit/6d1ed7a156729b4df5d66fef3ae9a8b5762a2d34) Thanks [@jxom](https://github.com/jxom)! - Updated references.
+
+- Updated dependencies [[`6d1ed7a1`](https://github.com/wagmi-dev/wagmi/commit/6d1ed7a156729b4df5d66fef3ae9a8b5762a2d34)]:
+  - @wagmi/core@1.2.2
+
+## 1.2.1
+
+### Patch Changes
+
+- [#2589](https://github.com/wagmi-dev/wagmi/pull/2589) [`9680c347`](https://github.com/wagmi-dev/wagmi/commit/9680c347476500d28ceca20d23eeaed7931cb6e0) Thanks [@jxom](https://github.com/jxom)! - Fixed `writeContract` parameters to be compatible with `prepareWriteContract`.
+
+- [#2587](https://github.com/wagmi-dev/wagmi/pull/2587) [`cfff9994`](https://github.com/wagmi-dev/wagmi/commit/cfff999459384ac644ff7e62f53a7b787cf37507) Thanks [@jxom](https://github.com/jxom)! - Updated references
+
+- Updated dependencies [[`9680c347`](https://github.com/wagmi-dev/wagmi/commit/9680c347476500d28ceca20d23eeaed7931cb6e0), [`cfff9994`](https://github.com/wagmi-dev/wagmi/commit/cfff999459384ac644ff7e62f53a7b787cf37507)]:
+  - @wagmi/core@1.2.1
+
+## 1.2.0
+
+### Minor Changes
+
+- [#2536](https://github.com/wagmi-dev/wagmi/pull/2536) [`85e9760a`](https://github.com/wagmi-dev/wagmi/commit/85e9760a140cb169ac6236d9466b96e2105dd193) Thanks [@tmm](https://github.com/tmm)! - Changed `Address` type import from ABIType to viem.
+
+### Patch Changes
+
+- [#2539](https://github.com/wagmi-dev/wagmi/pull/2539) [`96319c64`](https://github.com/wagmi-dev/wagmi/commit/96319c640b9d07b375821c08a5c213355d8c290b) Thanks [@jxom](https://github.com/jxom)! - Updated references
+
+- Updated dependencies [[`85e9760a`](https://github.com/wagmi-dev/wagmi/commit/85e9760a140cb169ac6236d9466b96e2105dd193), [`96319c64`](https://github.com/wagmi-dev/wagmi/commit/96319c640b9d07b375821c08a5c213355d8c290b)]:
+  - @wagmi/core@1.2.0
+
+## 1.1.1
+
+### Patch Changes
+
+- [`02b98a9f`](https://github.com/wagmi-dev/wagmi/commit/02b98a9f9b2c503a47af4a8967e0202b5db21787) Thanks [@jxom](https://github.com/jxom)! - Updated `viem` peer dependency.
+
+- [`02b98a9f`](https://github.com/wagmi-dev/wagmi/commit/02b98a9f9b2c503a47af4a8967e0202b5db21787) Thanks [@jxom](https://github.com/jxom)! - Updated references.
+
+- Updated dependencies [[`02b98a9f`](https://github.com/wagmi-dev/wagmi/commit/02b98a9f9b2c503a47af4a8967e0202b5db21787), [`02b98a9f`](https://github.com/wagmi-dev/wagmi/commit/02b98a9f9b2c503a47af4a8967e0202b5db21787)]:
+  - @wagmi/core@1.1.1
+
 ## 1.1.0
 
 ### Minor Changes

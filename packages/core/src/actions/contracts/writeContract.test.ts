@@ -51,13 +51,13 @@ describe('writeContract', () => {
 
       it('prepared', async () => {
         await connect({ connector })
-        const { request } = await prepareWriteContract({
+        const config = await prepareWriteContract({
           ...wagmiContractConfig,
           functionName: 'mint',
           args: [getRandomTokenId()],
           account,
         })
-        const { hash } = await writeContract(request)
+        const { hash } = await writeContract(config)
         const { from } = await getPublicClient().getTransaction({ hash })
         expect(from).toEqual(account)
       })
@@ -186,7 +186,7 @@ describe('writeContract', () => {
         Make sure you are using the correct ABI and that the function exists on it.
 
         Docs: https://viem.sh/docs/contract/encodeFunctionData.html
-        Version: viem@0.3.35"
+        Version: viem@1.0.0"
       `)
     })
   })
